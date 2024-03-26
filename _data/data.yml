@@ -8,47 +8,44 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Raisa Islam
+    tagline: Graduate Research Assistant
+    avatar: DP.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: nidha.raisa@gmail.com
+    phone: 575 805 4181
+    timezone: MST Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: nidharaisa.github.io/resume #do not add http://
+    linkedin: nidha-raisa
+    xing: 
+    github: nidharaisa
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: # http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Bengali
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Reading
           link:
 
-        - item: Snowboarding
+        - item: Traveling
           link:
 
         - item: Cooking
@@ -66,110 +63,84 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MS, PhD in Computer Science
+        university: New Mexico Institute of Mining and Technology
+        time: 2019 - Present
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
           sociis natoque penatibus et magnis dis parturient montes, nascetur
           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
           pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BSc in Computer Science and Engineering
+        university: Shahjalal University of Science and Technology
+        time: 2010 - 2014
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
           sociis natoque penatibus et magnis dis parturient montes, nascetur
           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
           pretium quis, sem.
-            - Bullet point
-            - Bullet point
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Graduate Research Assistant
+        time: August 2019 - Present
+        company: New Mexico Institute of Mining and Technology
+        details: | # this will include new lines to allow paragraphs
+            - Proposed a comprehensive risk assessment framework using evidential reasoning approach under the Dempster-Shafer theory of belief functions, focusing on fine-grained data analysis.
+            - Outlined and implemented ontology based user-centric privacy management system for Smart Grid, empowering the users to personalize their data sharing.
+
+       - role: Software Engineer
+        time: December 2018 - July 2019
+        company: Reve Systems
+        details: | # this will include new lines to allow paragraphs
+            - Engineered C++ cross-platform SDK that can support VoIP calls, Instant Messaging features.
+            - Implemented JNI wrapper class to integrate SDK into android applications.
+            - Developed a cross-platform connection establishment mechanism between web server and mobile apps.
+      
+      - role: Software Engineer
+        time: April 2017 - September 2018
+        company: ringID BD
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Collaborated as a core member of C++ SDK team, developing SDK for platform engineers to integrate into the social-
+networking app called ’ringID’ with a user base in the millions.
+            - Devised Live Streaming sub-module facilitating real-time audio/video data streaming, featuring capabilities for pausing,
+resuming, and media-scrubbing.
+            - Incorporated various data structures to serve high throughput real time data.
+            - Created an Android test app for feature testing prior to their integration into the production codebase
+
+      - role: Software Engineer
+        time: May 2014 - July 2016
+        company: AnyConnect Pvt Ltd
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Designed and implemented a Reliable UDP channel ensuring packet delivery by bandwidth management and re-transmission.
+            - Implemented Nested NAT detection mechanism resulting successful P2P connection establishment 90% times.
+            - Customized standard ICE check protocol, reducing the data transfer time by 2 to 3 seconds.
+            - Integrated unit testing for legacy codebase using Google Test Framework ensuring more than 85% code coverage.
+            - Proficiently optimized and sustained legacy C/C++ products.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: Python for Data Science, AI & Development
+          start: 2023
+          end: 2023
+          organization: Coursera
+          credentialid: 
+          credentialurl: https://www.coursera.org/account/accomplishments/certificate/HNYUGXUPWC9N
+          credentialname: 
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+            
+        - name: Data Visualization with Python, Coursera
+          start: 2023
+          end: 2023
+          organization: Coursera
+          credentialid: 
+          credentialurl: https://www.coursera.org/account/accomplishments/certificate/24GRG7BQKDNE
+          credentialname: 
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
